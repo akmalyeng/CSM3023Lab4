@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Task 2</title>  
+        <style>
+        h1 {
+        color: purple;
+        }
+        header h1 {
+        color: black; /* Change header font color to black */
+        }
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+  <header>
+    <h1>Use JSP Scriplet and JSP Expression in application</h1>
+  </header> <h1>Currency Conversion</h1>
+        
+        <form action="processCurrency.jsp" method="post">
+            <label for="amount">Amount(RM) :</label>
+            <input type="number" id="amount" name="amount" placeholder="RM"required><br><br>
+
+           <label for="convert">Convert to:</label>
+                <select id="convert" name="convert" required>
+                 <option value="1">USD</option>
+                 <option value="2">STG</option>
+                 <option value="3">Euro</option>
+                 
+            <button type="submit">Submit</button>
+            <button ty[e="clear">Cancel</button>
+           </select><br><br>
+           
+            <button type="submit">Submit</button>
+            <button ty[e="clear">Cancel</button>
+            <br><br> 
+    </body>
+    <footer>
+        &copy;2024 Amir Fakhrie
+    </footer>
+</html>

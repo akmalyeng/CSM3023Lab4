@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 1</title>
+  <style>
+    h1 {
+      color: purple;
+    }
+    header h1 {
+      color: black; /* Change header font color to black */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Use JSP Scriplet and JSP Expression in application</h1>
+  </header>  <h1>Customer Discount</h1>
+
+  <form action="processCustomer.jsp" method="post">
+    <label for="customerCode">Customer Code:</label>
+    <input type="text" id="customerCode" name="customerCode">
+    <br><br>
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity">
+    <br><br>
+    <label>Customer Type:</label><br>
+    <input type="radio" id="normalCustomer" name="customerType" value="normal">
+    <label for="normalCustomer">Normal Customer</label>
+    <input type="radio" id="privilegeCustomer" name="customerType" value="privilege">
+    <label for="privilegeCustomer">Privilege Customer</label><br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Cancel">
+  </form>
+</body>
+</html>
